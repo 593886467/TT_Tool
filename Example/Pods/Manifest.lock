@@ -1,0 +1,64 @@
+PODS:
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.5.0)
+  - TT_Tool (0.0.1):
+    - TT_Tool/TT_CommentCat (= 0.0.1)
+    - TT_Tool/TT_CommentKit (= 0.0.1)
+    - TT_Tool/TT_CommentNetWork (= 0.0.1)
+    - TT_Tool/TT_CommentTool (= 0.0.1)
+    - TT_Tool/TT_CommnetMaco (= 0.0.1)
+  - TT_Tool/TT_CommentCat (0.0.1):
+    - YYCategories
+  - TT_Tool/TT_CommentKit (0.0.1):
+    - MJRefresh
+    - TT_Tool/TT_CommentCat
+    - TT_Tool/TT_CommentNetWork
+    - TT_Tool/TT_CommentTool
+    - TT_Tool/TT_CommnetMaco
+  - TT_Tool/TT_CommentNetWork (0.0.1):
+    - YTKNetwork
+  - TT_Tool/TT_CommentTool (0.0.1):
+    - MBProgressHUD
+    - TT_Tool/TT_CommentCat
+    - TT_Tool/TT_CommentNetWork
+    - TT_Tool/TT_CommnetMaco
+  - TT_Tool/TT_CommnetMaco (0.0.1)
+  - YTKNetwork (3.0.2):
+    - AFNetworking/NSURLSession (~> 4.0)
+  - YYCategories (1.0.4):
+    - YYCategories/no-arc (= 1.0.4)
+  - YYCategories/no-arc (1.0.4)
+
+DEPENDENCIES:
+  - TT_Tool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - MBProgressHUD
+    - MJRefresh
+    - YTKNetwork
+    - YYCategories
+
+EXTERNAL SOURCES:
+  TT_Tool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
+  TT_Tool: 3fc74ac39624d3c7921214762d51e1ac6b311656
+  YTKNetwork: 4ba4b90b327fe8cde91d3beaa30194539b9dd491
+  YYCategories: 6bcd4314c6661a561410dce4a793379ebd306abd
+
+PODFILE CHECKSUM: a6cd01da9867d752a4c5adf76137ee5fa0410aa8
+
+COCOAPODS: 1.9.3
